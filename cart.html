@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="view-transition" content="same-origin" />
+    <title>Cibu Store</title>
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="img/icons8-clothes-30.png" type="image/icon type" />
+    <style>
+      body {
+        opacity: 0;
+        transition: opacity 0.7s;
+      }
+    </style>
+  </head>
+
+  <body onload="document.body.style.opacity='1'">
+    <!-- Header -->
+    <section id="header">
+      <a href="index.html"><img src="img/logo.png" class="logo" alt="" /></a>
+
+      <!-- Navbar -->
+      <div>
+        <ul id="navbar">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="shop.html">Shop</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li id="lg-bag">
+            <a class="active" href="cart.html"
+              ><i class="far fa-shopping-bag"></i
+            ></a>
+          </li>
+          <a href="#" id="close"><i class="far fa-times"></i></a>
+        </ul>
+      </div>
+      <div id="mobile">
+        <a href="cart.html"><i class="far fa-shopping-bag"></i></a>
+        <i id="bar" class="fas fa-outdent"></i>
+      </div>
+    </section>
+
+    <!-- Hero -->
+    <section id="page-header" class="about-header">
+      <h2>#let'sCheckout</h2>
+      <p>Thank You! have a great day.</p>
+    </section>
+
+    <!-- Cart Table -->
+    <section id="cart" class="section-p1">
+      <table width="100%">
+        <thead>
+          <tr>
+            <td>Remove</td>
+            <td>Image</td>
+            <td>Product</td>
+            <td>Price</td>
+            <td>Quantity</td>
+            <td>Subtotal</td>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              <a href="#"><i class="far fa-times-circle"></i></a>
+            </td>
+            <td><img src="img/Baju/baju1.jpg" alt="" /></td>
+            <td>Jersey Vintage Dark Green</td>
+            <td>IDR 189.000</td>
+            <td><input type="number" value="1" /></td>
+            <td>IDR 189.000</td>
+          </tr>
+          <tr>
+            <td>
+              <a href="#"><i class="far fa-times-circle"></i></a>
+            </td>
+            <td><img src="img/Baju/baju2.jpg" alt="" /></td>
+            <td>Jersey Vintage White</td>
+            <td>IDR 189.000</td>
+            <td><input type="number" value="1" /></td>
+            <td>IDR 189.000</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- Cart Add -->
+    <section id="cart-add" class="section-p1">
+      <div id="coupon">
+        <h3>Apply Coupon</h3>
+        <div>
+          <input type="text" placeholder="Enter Your Coupon" />
+          <button class="normal">Apply</button>
+        </div>
+      </div>
+
+      <div id="subtotal">
+        <h3>Cart Total</h3>
+        <table>
+          <tr>
+            <td>Cart Subtotal</td>
+            <td>IDR 378.000</td>
+          </tr>
+          <tr>
+            <td>Shipping</td>
+            <td>Free</td>
+          </tr>
+          <tr>
+            <td><strong>Total</strong></td>
+            <td><strong>IDR 378.000</strong></td>
+          </tr>
+        </table>
+        <button class="normal">Checkout</button>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="section-p1">
+      <div class="col">
+        <img class="logo" src="img/logo.png" alt="" />
+        <h4>Contact</h4>
+        <p>
+          <strong>Address : </strong> Jl. SMA Kapin No.292A, RT.9/RW.8, Pd.
+          Klp., Kec. Duren Sawit, Kota Jakarta Timur, Jakarta
+        </p>
+        <p><strong>Phone : </strong> 0812334545678</p>
+        <p>
+          <strong>Hours : </strong> Monday to Saturday, 09.00 AM to 16.00 PM
+        </p>
+        <div class="follow">
+          <h4>Follow Us</h4>
+          <div class="icon">
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-twitter"></i>
+            <a href="https://www.instagram.com/cib.ustore/"
+              ><i class="fab fa-instagram"></i
+            ></a>
+            <i class="fab fa-pinterest-p"></i>
+            <i class="fab fa-youtube"></i>
+          </div>
+        </div>
+      </div>
+
+      <!-- About -->
+      <div class="col">
+        <h4>About</h4>
+        <a href="about.html">About Us</a>
+        <a href="#">Delivery Information</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms & Conditions</a>
+        <a href="contact.html">Contact Us</a>
+      </div>
+
+      <!-- My Account -->
+      <div class="col">
+        <h4>My Account</h4>
+        <a href="#">Sign In</a>
+        <a href="cart.html">View Cart</a>
+        <a href="cart.html">My Wishlist</a>
+        <a href="#">Track My Order</a>
+        <a href="#">Help</a>
+      </div>
+
+      <!-- App and Payment Gateways -->
+      <div class="col install">
+        <h4>Install App</h4>
+        <p>From App Store or Google Play</p>
+        <div class="row">
+          <a href="https://www.apple.com/app-store/"
+            ><img src="img/pay/app.jpg" alt=""
+          /></a>
+          <a href="https://play.google.com/store/games?hl=en-IN"
+            ><img src="img/pay/play.jpg" alt=""
+          /></a>
+        </div>
+        <p>Secured Payment Gateways</p>
+        <img src="img/pay/pay.png" alt="" />
+      </div>
+
+      <!-- Copyright -->
+      <div class="copyright">
+        <p>(c) 2024, Cibu Store</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
