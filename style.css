@@ -173,7 +173,7 @@ body {
 }
 
 #hero button {
-      background-image: url("img/button.png");
+      background-image: url("assets/button.png");
       background-color: transparent;
       color: #088178;
       border: 0;
@@ -185,7 +185,7 @@ body {
 }
 
 #hero button:hover {
-      background-image: url("img/button.png");
+      background-image: url("assets/button.png");
       background-color: transparent;
       color: #043e3a;
       border: 0;
@@ -335,7 +335,7 @@ body {
       justify-content: center;
       align-items: center;
       text-align: center;
-      background-image: url("img/banner/b2.jpg");
+      background-image: url("banner/b2.jpg");
       width: 100%;
       height: 40vh;
       background-size: cover;
@@ -374,7 +374,7 @@ body {
       justify-content: center;
       align-items: flex-start;
       text-align: center;
-      background-image: url("img/banner/b17.jpg");
+      background-image: url("banner/b17.jpg");
       width: 50%;
       height: 50vh;
       background-size: cover;
@@ -383,7 +383,7 @@ body {
 }
 
 #sm-banner .banner-box2 {
-      background-image: url("img/banner/b10.jpg");
+      background-image: url("banner/b10.jpg");
 }
 
 #sm-banner h4 {
@@ -423,7 +423,7 @@ body {
       justify-content: center;
       align-items: flex-start;
       text-align: start;
-      background-image: url("img/banner/b7.jpg");
+      background-image: url("banner/b7.jpg");
       width: 30%;
       height: 30vh;
       background-size: cover;
@@ -433,11 +433,11 @@ body {
 }
 
 #banner3 .banner-box2 {
-      background-image: url("img/banner/b4.jpg");
+      background-image: url("banner/b4.jpg");
 }
 
 #banner3 .banner-box3 {
-      background-image: url("img/banner/b18.jpg");
+      background-image: url("banner/b18.jpg");
 }
 
 #banner3 h2 {
@@ -458,7 +458,7 @@ body {
       justify-content: space-between;
       flex-wrap: wrap;
       align-items: center;
-      background-image: url("img/banner/b14.png");
+      background-image: url("banner/b14.png");
       background-repeat: no-repeat;
       background-position: 20% 30%;
       background-color: #041e42;
@@ -572,7 +572,7 @@ footer .copyright {
 /* Shop Page */
 /* Page Header */
 #page-header {
-      background-image: url("img/banner/b1.jpg");
+      background-image: url("banner/b1.jpg");
       width: 100%;
       height: 40vh;
       background-size: cover;
@@ -671,7 +671,7 @@ footer .copyright {
 
 /* About Page */
 #page-header.about-header {
-      background-image: url("img/about/banner.png");
+      background-image: url("about/banner.png");
 }
 
 #about-head {
